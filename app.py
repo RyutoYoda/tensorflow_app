@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # モデルの読み込み
-model = tf.keras.models.load_model('my_model.h5')
+model = tf.keras.models.load_model('tensor_number_model.h5')
 
 # Streamlitアプリのタイトル
 st.title('Digit Recognition App')
